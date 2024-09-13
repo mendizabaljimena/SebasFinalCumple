@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0f2f1; /* Verde claro */
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #ffffff; /* Blanco */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .title {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2rem;
+            color: #388e3c; /* Verde oscuro */
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .content {
+            color: #004d40; /* Verde muy oscuro */
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+        .heart {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 40px;
+            height: 40px;
+            background-color: #e53935; /* Rojo corazón */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .message {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .message-content {
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 80%;
+        }
+        .message-content p {
+            color: #388e3c;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .close-message {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: #e53935;
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Feliz cumpleaños, amor de mi vida</div>
+        <div class="content">
+            <p>Deseo con todo mi corazón que cumplas muchos años más, que Diosito te bendiga y te proteja siempre. Estoy tan emocionada de poder celebrar otro cumpleaños a tu lado, compartiendo un día tan especial. No puedo evitar sentirme increíblemente orgullosa del hombre en el que te has convertido. A veces pienso en lo mucho que hemos crecido desde que nos conocimos siendo niños, esos niños que vivieron un amor lleno de ilusión, entregándose de lleno, dejando el corazón en las manos del otro sin miedo.</p>
+
+            <p>Hoy, más que nunca, me siento feliz de ser tu novia. A lo largo de estos años, siempre has hecho que me sienta completa, como si fueras mi otra mitad. Amo recordar nuestra historia, pensar en cómo desde el primer momento que te vi, supe que tú serías esa persona especial con la que quería construir una vida, un futuro, una familia. Nos veo como un proyecto, un hermoso proyecto que apenas comenzaba cuando te conocí. Con el tiempo, hemos ido construyendo juntos, tomando las herramientas necesarias para hacerlo posible. Ahora, nos estamos preparando para que en unos años, logremos esa meta juntos, y sé que lo haremos de la mejor manera, porque lo que hemos construido es tan fuerte, tan único, que cuando a veces llego a sentir que no puedo más, mi motivación es mi futuro a tu lado, ya que busco trabajar duro y crecer para que ambos lleguemos a ser exitosos y una linda pareja de ingenieros jsjs. Y cuando lleguemos a ese punto, vendrá la segunda parte de nuestro proyecto, llena de nuevos sueños y aventuras.</p>
+
+            <p>Tú eres mi pasado (que recuerdo con tanto cariño), mi presente y mi futuro. No hay nadie más con quien quiera compartir mi vida, solo tú. Te prometo amarte siempre, todos los días de mi vida. Y si en algún momento no lo hago como debo, le pido a Dios que me guíe para siempre ofrecerte lo mejor de mí, porque tú lo mereces y porque has sido parte fundamental en quien soy hoy.</p>
+
+            <p>Gracias por ser tú. Por esos ojos que me derriten con solo mirarlos, por esa boquita que no me canso de besar, por esos colochos que podría acariciar por siempre, por esa voz que calma mi alma. Pero, sobre todo, gracias por tu corazón, ese que me has confiado y que cuidaré como el mayor tesoro del mundo. Sé que proteger tu corazón es mi misión, porque es lo más valioso que tengo. Prometo cuidarlo, como el cristal más precioso.</p>
+
+            <p>Amo cómo hemos crecido juntos, cómo poco a poco nos acercamos a esos sueños que compartíamos cuando éramos más pequeños. Me parece increíble pensar que ahora podemos disfrutar de cosas que antes eran solo un deseo, como poder abrazarnos, besarnos, compartir momentos que antes parecían imposibles. Esos abrazos y besos que en la pandemia creíamos lejanos, ahora son parte de nuestro día a día, y no sabes cuánto los valoro. Además, me llena de felicidad ver cómo nuestras familias confían en nosotros cada vez más, cómo se llevan tan bien. ¡Hasta parece que ellos están enamorados de ti! Jajaja, pero me encanta escuchar todo lo bueno que dicen de ti.</p>
+
+            <p>Quiero que siempre seas mi "ciclo for", y si llegas a ser un "while", que no haya otra condición más que amarme para siempre. ¡Y si eres un "elif", que siempre sea para quedarte conmigo sin ninguna duda, jajaja!</p>
+
+            <p>Gracias por todos los momentos vividos, y por todos los que vienen. Estoy aquí para ti, para siempre. No solo eres mi novio, eres también mi mejor amigo, y eso es algo que amo de nuestra relación. Estoy orgullosa de ti, te admiro y te amo con todo mi corazón.</p>
+
+            <p>¡Felices 19, mi amor! Te amo más de lo que las palabras pueden expresar.</p>
+        </div>
+        <div class="heart" onclick="showMessage()">❤️</div>
+    </div>
+
+    <!-- Mensaje bonito -->
+    <div class="message" id="message">
+        <div class="message-content">
+            <button class="close-message" onclick="hideMessage()">×</button>
+            <p>¡Eres mi todo! Gracias por ser la persona maravillosa que eres. Te amo más de lo que las palabras pueden expresar. 🌹</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'flex';
+        }
+        function hideMessage() {
+            document.getElementById('message').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
